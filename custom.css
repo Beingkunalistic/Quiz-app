@@ -39,3 +39,15 @@ body{
 .content{
     display:none;
 }
+
+/* media queries for smaller screens */
+@media(max-width:1180px){
+    #box{
+        width:60%
+    }
+}
+@media(max-width:500px){
+    #box{
+        width:90%
+    }
+}
